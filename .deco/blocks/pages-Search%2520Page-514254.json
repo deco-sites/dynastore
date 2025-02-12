@@ -22,8 +22,11 @@
       "section": {
         "__resolveType": "site/sections/Product/SearchResult.tsx",
         "page": {
-          "__resolveType": "nuvemshop/loaders/productListingPage.ts",
-          "limit": 12
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "sort": "price:desc",
+          "fuzzy": "automatic",
+          "selectedFacets": [],
+          "count": 30
         },
         "layout": {
           "columns": {
