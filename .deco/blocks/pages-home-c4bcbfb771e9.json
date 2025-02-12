@@ -52,9 +52,7 @@
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "Featured Products",
         "cta": "/mono",
-        "products": {
-          "__resolveType": "Product List Loader"
-        }
+        "products": null
       }
     },
     {
